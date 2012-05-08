@@ -19,6 +19,9 @@ public class PolyvalentMain {
         // TODO code application logic here
         Vector3D v1 = Vector3D.PLUS_I;
         System.out.println(v1);
+        Vector3D v2 = Vector3D.PLUS_J;
+        v2.crossProduct(v1);
+        System.out.println(v2);
         
     }
 }
